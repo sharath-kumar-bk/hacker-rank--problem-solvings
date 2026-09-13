@@ -1,15 +1,29 @@
+s=("bharath" , "Sharath " , "charan")
+new_s=tuple(
+    w[:1] + w[1].upper() + w[2:] for w in s
+)
+print(new_s)
+
+fruits = ["apple", "banana", "mango"]
+print(fruits[0], len(fruits))
 
 
-if __name__ == '__main__':
-    n = 3
-    if n % 2 != 0:
-        print("Weird")
 
-    elif n % 2 == 0 and n >= 2 and n <= 5:
-        print("Not Weird")
+fruits = ["apple", "banana", "mango"]
+x=fruits.pop()
+print(x, fruits)
 
-    elif n % 2 == 0 and n >= 6 and n <= 20:
-        print("Weird")
 
-    elif n % 2 == 0 and n > 20:
-        print("Not Weird")
+numbers=[4,5,2,7,9]
+numbers.sort()
+print( numbers)
+
+numbers=[4,5,2,7,9]
+numbers.reverse()
+print(numbers)
+
+numbers=[4,5,2,7,9,3,2,4,2]
+print(numbers.count(2))
+
+numbers=[4,5,2,7,9,3,2,4,2]
+print(numbers.index(4))
