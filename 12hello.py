@@ -10,6 +10,8 @@ while trials<=3:
          break
     else:
          print("incorrect pin")
+else:
+     print("stop")
        
 
 
