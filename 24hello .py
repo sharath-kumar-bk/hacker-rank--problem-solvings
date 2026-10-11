@@ -94,3 +94,25 @@ print(names)
 def greet():
     print("hello python")
 greet()
+
+i=5
+while i<=10:
+    i+=1
+    print(i)
+
+def tabel(num):
+    for i in range(1,11):
+        print(f"{num}x{i}={num*i}")
+tabel(2)
+tabel(3)
+
+def func(num):
+    print(int(str(num*2)))
+func(5)
+print(type(func))
+
+def func(num):
+    return(int(str(num*2)))
+a=100
+c=a+func(5)
+print(c)
