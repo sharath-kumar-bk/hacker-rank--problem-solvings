@@ -1,1 +1,20 @@
-print("hello ")
+a=2
+b=3
+a,b=3,2
+print(f"a={a},b={b}")
+
+x=1
+y=x
+print(x)
+print(y)
+
+x=1
+y=x
+y=y+1
+print(x)
+print(y)
+
+
+import keyword               # imort all kewords in python
+print("The list of keywords are : ")
+print(keyword.kwlist)

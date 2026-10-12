@@ -116,3 +116,10 @@ def func(num):
 a=100
 c=a+func(5)
 print(c)
+
+name="sharath"
+print(name[0])
+
+name="sharath "
+name=name+"bk"
+print(name)
