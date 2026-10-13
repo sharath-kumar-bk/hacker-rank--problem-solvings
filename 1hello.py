@@ -15,6 +15,9 @@ print(x)
 print(y)
 
 
-import keyword               # imort all kewords in python
+import keyword               # using this code we imort all keywords in python
 print("The list of keywords are : ")
 print(keyword.kwlist)
+
+x=[1,2,3,4,5,6]
+print[1:]
