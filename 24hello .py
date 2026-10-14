@@ -136,3 +136,12 @@ print(message.replace("bye","error"))
 name='''sharath said "hello"
     bharath said "hello"'''
 print(name)
+
+i=1
+while i<=20:
+    print(i)
+    if i%2!=0:
+        print("odd number")
+    else:
+        print("even number")
+    i+=1
