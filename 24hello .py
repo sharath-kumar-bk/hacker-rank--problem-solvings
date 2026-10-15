@@ -118,30 +118,7 @@ c=a+func(5)
 print(c)
 
 name="sharath"
-print(name[0])
-
-name="sharath "
-name=name+"bk"
+me=[]
+me.append(name)
 print(name)
 
-message="bye " #repitition
-print(message*10)
-
-print(message.upper())
-print(message.lower())
-print(message.strip()*10)
-
-print(message.replace("bye","error"))
-
-name='''sharath said "hello"
-    bharath said "hello"'''
-print(name)
-
-i=1
-while i<=20:
-    print(i)
-    if i%2!=0:
-        print("odd number")
-    else:
-        print("even number")
-    i+=1

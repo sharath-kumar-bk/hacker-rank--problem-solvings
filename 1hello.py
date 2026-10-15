@@ -1,23 +1,20 @@
-a=2
-b=3
-a,b=3,2
-print(f"a={a},b={b}")
-
-x=1
-y=x
-print(x)
-print(y)
-
-x=1
-y=x
-y=y+1
-print(x)
-print(y)
+name="sharath"          
+me=[]
+me.append((name))
+print(me)
 
 
-import keyword               # using this code we imort all keywords in python
-print("The list of keywords are : ")
-print(keyword.kwlist)
+name="sharath"          
+me=[]
+me.append(sorted(name))
+print(me)
 
-x=[1,2,3,4,5,6]
-print[1:]
+name="sharath"          
+me=[]
+me.append(sorted(name))
+me[0].reverse()
+print(me)
+
+name="sharath" 
+name=list(name)
+print(name)
