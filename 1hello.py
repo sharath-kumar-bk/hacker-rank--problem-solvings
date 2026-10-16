@@ -44,3 +44,17 @@ print(type(a[2][0]))
 a=[1,2]
 a.append((3,))
 print(type(a[2]))
+
+def add(a,b,c):
+    return(a+c)
+c=add(2,4,3)
+print(c)
+print(type(c))
+
+def func(a):
+    print(type(a))
+func("sharu")
+
+def func(a,):
+    print(type(a))
+func()
