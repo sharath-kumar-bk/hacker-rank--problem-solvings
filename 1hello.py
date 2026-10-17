@@ -55,6 +55,25 @@ def func(a):
     print(type(a))
 func("sharu")
 
-def func(a,):
+def func(*a):
     print(type(a))
 func()
+
+a=[1,2]
+a.append(3)
+print(a)
+
+
+a=[1,2]
+a.insert(1,3)
+print(a)
+
+
+a=[1,2]
+a.extend([3,4,5])
+print(a)
+
+
+a=[1,2]
+a.pop(0)
+print(a)
