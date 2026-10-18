@@ -40,7 +40,7 @@ print(a)
 print(type(a))
 print(type(a[2]))
 print(type(a[2][0]))
-]))
+
 
 def add(a,b,c):
     return(a+c)
@@ -68,7 +68,7 @@ print(a)
 
 a=[1,2]
 a.append((3,))
-print(type(a[2
+print(type(a[2]))
 a=[1,2]
 a.extend([3,4,5])
 print(a)
@@ -118,9 +118,30 @@ students=[
 students.sort(key= lambda student:student["marks"], reverse=True)
 print(students)
 
-num=[6]
+num=6
 t=1
 while num>=1:
    t=num*t
    num-=1
 print(t)
+
+
+
+x = 0
+while x < 100:
+    x += 2
+    print(x)
+
+
+    
+x = 0
+while x < 100:
+    print(x)
+    x += 2
+print("===========")
+
+x=1
+while x<100:
+    x+=3
+print(x)
+    
