@@ -165,3 +165,30 @@ def sum(n):
     if n==1:
         return 1   
     print(sum(1))
+
+num=[]
+for i in range(1,10):
+    num.append(i)
+    num.sort(reverse=True)
+print(num)
+
+names=["sharath", "bharath","navin" ]
+upper_names=[]
+for index,name in enumerate(names):
+    upper_names.append(name.upper())
+print(upper_names)
+
+
+names=["sharath", "bharath","navin" ]
+upper_names=[name.capitalize() for name in names]
+print(upper_names)
+
+num=[1,2,3,4,5,6,7]
+for i in range(0,len(num)-1,4):
+    num[i],num[i+2]=num[i+2],num[i]
+print(num)
+
+num=[1,2,3,4,5,6]
+for i in range(0,len(num)-1,2):
+    num[i],num[i+1]=num[i+1],num[i]
+print(num)
