@@ -122,3 +122,23 @@ me=[]
 me.append(name)
 print(name)
 
+def factorial(n):
+    if n==1:
+        return 1
+    return n *factorial(n-1)
+print(factorial(4))
+
+
+mul=lambda a,b:a*b
+print(mul(2,3))
+
+def sum(n):
+    if n==1:
+        return 1
+    return n+sum(n-1)
+print(sum(5))
+
+def sum(n):
+    if n==1:
+        return 1   
+    print(sum(1))
