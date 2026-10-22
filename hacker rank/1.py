@@ -1,10 +1,9 @@
-#loops
-n=int(input())
-for i in range(0,n):
-    print(i**2)
-#loops
-n=int(input())
-i=0
-while i<n:
-    print(i**2)
-    i+=1
+x=1
+y=1
+z=1
+result=[]
+for i in range (x+1):
+    for j in range(y+1):
+        for k in range(z+1):
+            result.append(i,j,k)
+print(result)
